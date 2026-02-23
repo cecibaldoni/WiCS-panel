@@ -1,0 +1,3 @@
+project:
+  type: website # or book/default
+  output-dir: docs
