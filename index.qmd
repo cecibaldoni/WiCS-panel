@@ -1,0 +1,396 @@
+---
+title: "WiCS -- Building Inclusive Computational Skills"
+author:
+  name: Cecilia Baldoni
+  affiliation: Max Planck Institute of Animal Behavior
+  mail: cbaldoni@ab.mpg.de
+  url: https://cecibaldoni.github.io/
+  orcid: 0009-0008-1341-9456
+date: 02/23/2026
+date-format: long
+format:
+  revealjs: 
+    theme: style.scss
+    incremental: true
+    height: 900
+    width: 1600
+    transition: fade
+    code-line-numbers: true
+    self-contained: true
+    embed-resources: true
+    include-in-header: fontawesome.html
+---
+
+## About me: Cecilia Baldoni
+
+```{=html}
+<div class="about-me" style="display:flex;align-items:center;">
+  <img src="images/BaldoniCecilia.JPG" class="about-me-img">
+  <div class="about-me-text">
+    <ul>
+      <li>Postdoctoral researcher @ MPI of Animal Behavior</li>
+      <li>Cognitive scientist</li>
+      <li>Love visual storytelling and making research accessible </li>
+      <li>Also teach Quarto, PKM, and Open Science</li>
+    </ul>
+  </div>
+</div>
+
+<div class="social-icons">
+  <a href="https://github.com/cecibaldoni?tab=repositories" aria-label="GitHub"><i class="fab fa-github"></i></a>
+  <a href="https://www.linkedin.com/in/cecilia-baldoni/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+  <a href="https://bsky.app/profile/cecibaldoni.bsky.social" aria-label="Bluesky"><i class="fa-solid fa-b"></i></a>
+  <a href="https://cecibaldoni.github.io/" aria-label="Website"><i class="fas fa-globe"></i></a>
+  <a href="https://ko-fi.com/cecibaldoni" aria-label="Ko-fi"><i class="fa-solid fa-mug-hot"></i></a>
+</div>
+
+```
+
+
+
+## What I work on
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![Picture by Christian Ziegler](images/shrew-overlay.png)
+:::
+
+
+::: {.column width="50%"}
+- Meet the [**Common shrew**](https://cecibaldoni.github.io/content/shrews.html) (*Sorex araneus*), one of the few mammals that can shrink their brain in winter to save energy
+- I investigate the cognitive compromise of their brain size plasticity
+- **What I do**: cognitive tasks, MRI and brain anatomy, statistical modeling
+:::
+
+::::
+
+::: {.notes}
+
+:::
+
+
+## How I use computational skills
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![Picture by Christian Ziegler](images/shrewmaze.jpg)
+:::
+
+
+::: {.column width="50%"}
+- Design cognitive tasks
+- Simulate data
+- Analyze research data (R, Python)
+- Build [workshops, tutorial, teaching materials](https://cecibaldoni.github.io/content/talks.html)
+- Create presentations (like this one!) in [Quarto](https://quarto.org/)
+:::
+
+::::
+
+
+## Why learning computational skills?
+
+:::: {.columns}
+
+::: {.column width="50%"}
+- MRI scans are just folders of numbers and pixels
+- Spreadsheets and calculators can't handle the multi-dimensional complexity of modern cognitive data
+:::
+
+::: {.column width="50%"}
+![Baldoni et al., 2023](images/Figure2.jpg){height="800px"}
+:::
+
+::::
+
+::: {.notes}
+Honestly, I started coding because I had to. My work with MRI is a perfect example: MRI scans are folders of raw numerical data, and you need to make sense of it before reaching this picture.
+There's also to say that our data has become too complex and multi-dimensional, you physically cannot process these volumes or run these models in a spreadsheet anymore
+Computational literacy is the only way to keep up with the data we are generating
+:::
+
+
+
+## When I started
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+:::{.fragment}
+![](images/JTlost.gif)
+:::
+
+:::
+
+::: {.column width="70%"}
+- MRI physics
+- Coding in `R` and `Python`
+- Open Science Practices
+- Statistical methods of the likes I'd never seen
+:::
+
+::::
+
+:::{.notes}
+But this is me when I started. I did my hd witht he smae system, and before starting with this project I did not even see an MRI scan, or a shrew. I had to learn a lot of concepts and tools and practices there were out of my knowledge.
+I had to learn MRI physics, R, and Python simultaneously while trying to produce actual research. This wasn't a linear academic journey.
+:::
+
+## No clear path
+
+:::: {.columns}
+
+::: {.column width="50%"}
+- Cognitive Science demands computational skills
+- Departments don't always teach it
+:::
+
+::: {.column width="50%"}
+![](images/programming-or-googling.jpg)
+:::
+
+::::
+
+::: {.notes}
+In psychology and cognitive science, there is often a "hidden curriculum." Everyone assumes you have these skills because you need them to do the work, but almost no one actually teaches them to you. My experience was something like this. 
+:::
+
+## My path
+
+:::: {.columns}
+
+::: {.column width="35%"}
+- Open Educational Resources (e.g. tutorials, books, blogposts)
+- Youtube
+- [Stack Overflow](https://stackoverflow.com/questions) (at the time, now it would be LLM chatbot!)
+- [Github](https://github.com/)
+:::
+
+::: {.column width="65%"}
+![](images/oer.png)
+[image from KIM - University of Konstanz](https://www.kim.uni-konstanz.de/en/openscience/open-educational-resources-oer/oer-use-it/)
+:::
+
+::::
+
+::: {.notes}
+Since there wasn't a formal curriculum in my department, I looked for answers where I could find them. 
+I was mostly looking on how other people had solved similar problems
+
+This is a very common experience in our field: we become 'self-taught' by necessity because we have specific research questions that won't wait for a course to be offered.
+:::
+
+
+## When learning is isolation became a problem
+
+> "My process is a mess, while everyone else's isn't."
+
+![](images/rect2.png)
+
+
+:::{.notes}
+But the problem is that learning in isolation creates a skewed perspective. Since you only see your own process, which is full of bugs and errors and terrible git commit history, when you look at the community to see the standard, you only see their polished final products. Then you start thinking that for everyone else the process was linear and perfect
+
+
+:::
+
+## What I thought it meant:
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](images/me-vs-everyone.png)
+:::
+
+::: {.column width="50%"}
+
+> "My struggle is a sign of incompetence"
+
+:::
+
+::::
+
+::: {.notes}
+That in my head translated in the assumption that my struggle was a sign of incompetence. 
+Because you can't see behind other people's curtains, your brain fills in the gaps with the assumption that they aren't struggling.
+
+I assumed that because my process was a disaster, I wasn't ready to participate or share.
+
+I was waiting for a level of competence that would give me 'permission' to join the conversation—as if there were some invisible exam I had to pass before I earned the right to speak to a 'real' scientist
+
+:::
+
+## What it really meant:
+
+:::: {.columns}
+
+::: {.column width="50%"}
+- *Brain Assumption:* I need to reach "Expert Status" before I can contribute.
+- *Actually...* The skills only click when you use them in the open.
+- *But...* [Learning in public](https://www.swyx.io/learn-in-public) is too scary!
+:::
+
+::: {.column width="50%"}
+![](images/imposter-syndrome.png)
+
+:::
+
+
+::::
+
+::: {.notes}
+In reality, that was classic imposter syndrome, that persistent feeling that you’ve only made it this far because of luck, and that eventually, someone is going to realize you don’t actually know what you’re doing.
+My assumption was that i had to learn more, or get better, before I was allowed to ask questions or feel like a real scientist.
+I realized that if I waited until my code was perfect to join the community, I would be waiting forever.
+:::
+
+## The self-evaluation gap
+
+![https://characterlab.org/tips-of-the-week/how-did-you-do/](images/gender-confidence-gap.png)
+
+<br><br>
+
+::: {.small-text}
+[Exley, C.L. & Kessler, J.B. (2022). "Gender gaps in self-promotion"](https://academic.oup.com/qje/article/137/3/1345/6513425) <br>
+[Price, P.C., et al., (2024). "Gender differences in impostor phenomenon: A meta-analytic review"](https://www.sciencedirect.com/science/article/pii/S2666518224000093#:~:text=Abstract,common%20Clance%20Impostor%20Phenomenon%20Scale.)
+:::
+
+::: {.notes}
+This isn't just a personal feeling. Data shows a significant confidence gap in STEM. Even when technical skills are equal, women and underrepresented groups report significantly lower evaluation in those skills. That feeling of 'waiting for permission' is exactly how this statistics look in real life. Isolation reinforces this gap because it makes us feel like our struggle is an individual failure rather than a standard part of the process.
+:::
+
+## What worked for me: participating anyway!
+
+I started participating, despite not feeling ready
+
+:::: {.columns}
+
+::: {.column width="50%"}
+- Join online communities
+- Contribute in Open Source Projects 
+- Sharing before it felt "ready"
+- Ask questions!
+:::
+
+::: {.column width="50%"}
+
+![](images/logos.png)
+:::
+
+::::
+
+
+::: {.notes}
+The turning point for me was deciding to participate despite the lack of confidence. I moved from lurking on GitHub to Contribute to Open Source Projects. 
+
+The only way to stop waiting for permission was to act as if I already have it. (It turns out, no one is actually out ther to judge you before you're allowed to ask a question or share a script.)
+:::
+
+
+
+## What I learned 
+
+:::: {.columns}
+
+::: {.column width="50%"}
+- Learning in public is scary, but rewarding!
+- If you don't ask, people can't help!
+- Sharing the "messy" parts of your code makes the field more inclusive for everyone
+- Community-led initiatives are built by people invested in helping others!
+:::
+
+::: {.column width="50%"}
+![](images/community.svg)
+[The Turing Way Community, & Scriberia. (2024). Illustrations from The Turing Way: Shared under CC-BY 4.0 for reuse.](https://zenodo.org/records/13882307)
+
+:::
+
+::::
+
+::: {.notes}
+What I learned is that learning in public is objectively scary—you are exposing your gaps in real-time. But I also realized that silence is a barrier to progress. If you don't ask the question, no one can help you bridge the gap. More importantly, you are honest about the gaps in your understanding and you realise that others have the same struggles, and we can start solving them together.
+And by the way... I found that these communities are not there to judge; they are built by people who are genuinely invested in helping others grow. They want you to succeed because your contribution makes the whole ecosystem stronger.
+
+:::
+
+
+## From Participant to Facilitator
+
+:::: {.columns}
+::: {.column width="50%"}
+After participating, I felt more confident in my own value, and I started *facilitating* so others could learn.
+:::
+
+
+::: {.column width="50%"}
+![](images/bitmap.png){height="800px"}
+:::
+
+::::
+
+::: {.notes}
+
+
+:::
+
+## Feel the fear, and do it anyway!
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](images/community.png){height="600px"}
+[The Turing Way Community, & Scriberia. (2024). Illustrations from The Turing Way: Shared under CC-BY 4.0 for reuse.](https://zenodo.org/records/13882307)
+
+:::
+
+::: {.column width="50%"}
+- You don't need to be an expert to help others
+- Explaining a concept to someone else reveals exactly where your own gaps are
+- I don't always have the answers—and that is okay
+:::
+
+::::
+
+::: {.notes}
+My advice to researchers starting out is to stop treating your questions and your struggle like a secret. Every time you ask for help in an open community, you aren't just helping yourself—you are creating a resource for the next person who is too afraid to ask. You don't need permission to participate; you just need the willingness to learn in public. Thank you.
+:::
+
+## Thank you!
+
+```{=html}
+<div class="about-me" style="display:flex;align-items:center;">
+  <img src="images/BaldoniCecilia.JPG" class="about-me-img">
+  <div class="about-me-text">
+    <ul>
+      <li>Stay in touch!</li>
+      <li>Join wonderful communities!</li>
+      <li>Ask questions!</li>
+    </ul>
+  </div>
+</div>
+
+<div class="social-icons">
+  <a href="https://github.com/cecibaldoni?tab=repositories" aria-label="GitHub"><i class="fab fa-github"></i></a>
+  <a href="https://www.linkedin.com/in/cecilia-baldoni/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+  <a href="https://bsky.app/profile/cecibaldoni.bsky.social" aria-label="Bluesky"><i class="fa-solid fa-b"></i></a>
+  <a href="https://cecibaldoni.github.io/" aria-label="Website"><i class="fas fa-globe"></i></a>
+  <a href="https://ko-fi.com/cecibaldoni" aria-label="Ko-fi"><i class="fa-solid fa-mug-hot"></i></a>
+</div>
+
+```
+
+## Resources & Communities
+
+- [How to start your own Code Club](https://sortee.github.io/start-your-codeclub-guide/)<br>
+- [SORTEE](https://sortee.org/) and [SORTEE Code Club](https://sortee.org/code_club/)
+- [The Turing Way Book](https://book.the-turing-way.org/)
+- [R-Ladies Global](https://rladies.org/)
+- [The Carpentries](https://carpentries.org/)
+- [FORRT](https://forrt.org/)
+- [Code like a Girl](https://open.substack.com/pub/codelikeagirl)
+- [Open Science in Practice - MPG](https://osip.mpdl.mpg.de/)
+- [Open Science Toolbox - LMU](https://www.osc.uni-muenchen.de/toolbox/index.html)
